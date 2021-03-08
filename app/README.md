@@ -1,8 +1,9 @@
-# MODEL API APPLICATION
+# DASHBOARD LIGHT THEME APPLICATION
 
 # Getting Started
 
-The Dashboard Light Theme is a backend dashboard basic theme for simple projects [dashboard-light-theme](https://github.com/CodeIsaMystic/dashboard-light-theme) with basics and standards applications, you can imagine so, handling texts, SEO, Titles, Cards, Images, Users, Contacts, Lists, Articles, Posts and so on...
+This app is a basic backend dashboard for simple projects. [Dashboard-light-theme](https://github.com/CodeIsaMystic/dashboard-light-theme) have some basics and standards applications, you can imagine so, handling texts, SEO, Titles, Cards, Images, Users, Contacts, Lists, Articles, Posts and so on...
+You can of course implementing more applications on it like charts with Chart.js.
 
 ## SQL Database
 
