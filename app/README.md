@@ -44,9 +44,6 @@ CREATE TABLE "other-table-name" (
 );
 ```
 
-
-```
-
 ## Environment Variables
 
 
