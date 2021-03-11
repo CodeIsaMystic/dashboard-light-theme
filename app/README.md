@@ -1,4 +1,33 @@
-# DASHBOARD LIGHT THEME APPLICATION
+<div align="center">
+<h1> DASHBOARD LIGHT THEME APPLICATION </h1>
+
+<a href="#">
+  <img
+    height="60"
+    width="240"
+    alt="dbsh-logo"
+    src="app/assets/img/icons/logo-dbsh--light.svg"
+  />
+</a>
+
+<p>Intro explaining the purpose of this project,  and how it can envolve with time... </p>
+
+<br />
+
+<a href="#">
+  <img
+    height=""
+    width=""
+    alt="screen of dashboard ligth theme project"
+    src="app/assets/img/"
+  />
+</a>
+
+<br />
+</div>
+
+
+
 
 # Getting Started
 
