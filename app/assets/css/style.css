@@ -16,7 +16,6 @@ License - nucleoapp.com/license/
 
 
 
-
 /**********************************************************************
 ***********************************************************************
 ***********************************************************************
@@ -204,7 +203,7 @@ body>.navbar-collapse {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 240px;
+  width: 180px;
   display: block;
   z-index: 1;
   color: #fff;
@@ -219,7 +218,7 @@ body>.navbar-collapse .sidebar-wrapper {
   max-height: calc(100vh - 75px);
   min-height: 100%;
   overflow: auto;
-  width: 240px;
+  width: 180px;
   z-index: 4;
   padding-bottom: 123px;
 }
@@ -311,12 +310,13 @@ body>.navbar-collapse .nav {
 .sidebar .nav li .nav-link,
 body>.navbar-collapse .nav li .nav-link {
   color: #FFFFFF;
-  margin: 5px 15px;
+  margin: 5px;
+  padding: 0.5rem 0;
   opacity: .86;
   border-radius: 4px;
   text-transform: uppercase;
   line-height: 30px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 600;
 }
 
@@ -353,8 +353,8 @@ body>.navbar-collapse .nav li .nav-link i {
 .sidebar .nav li .nav-link p,
 body>.navbar-collapse .nav li .nav-link p {
   margin: 0;
-  line-height: 31px;
-  font-size: 12px;
+  line-height: 25px;
+  font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
   display: inline-flex;
@@ -447,7 +447,7 @@ body>.navbar-collapse[data-color="blueDark"]:after {
   background: rgba(203, 203, 210, 0.15);
   position: relative;
   float: right;
-  width: calc(100% - 240px);
+  width: calc(100% - 180px);
   min-height: 100%;
 }
 
