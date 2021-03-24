@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="/assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
 
-  <title>Template</title>
+  <title>Index</title>
 
 </head>
 
@@ -50,8 +50,8 @@
               </i>
             </a>
           </li>
-          <li class="nav-item m-0 p-0">
-            <a class="nav-link d-flex align-self-center" href="./contactAdd.html">
+          <li class="nav-item active m-0 p-0">
+            <a class="nav-link d-flex align-self-center" href="#">
               <i class="nc-icon nc-icon-fz-18 nc-simple-add m-auto p-0"></i>
             </a>
           </li>
@@ -62,8 +62,8 @@
 
         <!--  ul nav nav-items  -->
         <ul class="nav pt-3">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
               <i class="nc-icon nc-icon-fz-24 nc-chart"></i>
               <p>Dashboard</p>
             </a>
@@ -75,7 +75,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="lists.html">
               <i class="nc-icon nc-icon-fz-24 nc-notes"></i>
               <p>Lists</p>
             </a>
@@ -121,8 +121,7 @@
           <p class="font-italic my-2 p-0">" Doing Sports Healthy "</p>
 
           <button href="#" class="navbar-toggler navbar-toggler-right my-2" type="button" data-toggle="collapse"
-            data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
-            aria-label="Toggle navigation">
+            aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar burger-lines"></span>
             <span class="navbar-toggler-bar burger-lines"></span>
             <span class="navbar-toggler-bar burger-lines"></span>
@@ -145,7 +144,7 @@
                 <a class="nav-link font-italic p-2" href="#">Welcome Jowd</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link font-italic p-2" href="#">Log Out</a>
+                <a class="nav-link font-italic p-2" href="logout.html">Log Out</a>
               </li>
             </ul>
           </div>
@@ -159,8 +158,92 @@
       <div class="content">
         <!--  container-fluid  -->
         <div class="container-fluid">
-          <!--  section  -->
-          <div class="section">
+
+
+
+          <!--  main panel row content  -->
+          <div class="row">
+
+
+            <!--  title add contact  -->
+            <div class="container mb-3">
+              <div class="row mb-3">
+                <div class="col-12 mr-auto mt-5">
+                  <h1 class="heading-primary my-3 ml-5 pb-2">
+                    Ajouter un contact
+                  </h1>
+                </div>
+                <div class="col-sm-12 ml-4 pb-4">
+                  <p>Dans cette partie, vous pouvez ajouter un contact, écrire une note, sélectionner si
+                    votre
+                    contact
+                    est déjà "client" ou bien s'il veux être inscrit à la "Newsletter", puis l'enregistrer dans votre
+                    base de
+                    données.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <!--   card add contact  -->
+            <div class="col-12 col-sm-10 mx-auto">
+              <div class="card box-shadow">
+                <!--  card header add contact  -->
+                <div class="card-header text-center">
+                  <h4 class="heading-secondary pb-1 m-0">Ajouter un contact</h4>
+                </div>
+                <!--  card body add contact  -->
+                <div class="card-body">
+                  <form>
+                    <div class="col-12 col-sm-10 form-group">
+                      <label for="lastname">Nom</label>
+                      <input type="text" class="form-control" placeholder="Nom" />
+                    </div>
+                    <div class="col-12 col-sm-10 form-group">
+                      <label for="firstname">Email</label>
+                      <input type="email" class="form-control" placeholder="Email" />
+                    </div>
+                  </form>
+                </div>
+
+                <!--  card footer add contact  -->
+                <div class="card-footer mb-2">
+
+                  <div class="col-12">
+                    <label for="submit"></label>
+                    <button type="submit" name="submit"
+                      class="button button--orange d-block ml-5 my-3">Enregistrer</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
         </div>
         <!--  End container-fluid  -->
@@ -191,21 +274,4 @@
     <!--  End main-panel  -->
   </div>
   <!--  End wrapper  -->
-
-
-
-  <!--   Vendor JS Cdn   -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-  <!--  JS file
-  <script src="/assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
-  -->
 </body>
-
-<!-- 
-<script src="/assets/js/script.js"></script> 
--->
-
-</html>
