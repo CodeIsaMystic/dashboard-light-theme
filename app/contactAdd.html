@@ -173,7 +173,7 @@
                     Ajouter des contacts et témoignages
                   </h1>
                 </div>
-                <div class="col-12 mx-auto pb-5">
+                <div class="col-12 text-center text-lg-left mx-auto mb-5 pb-5">
                   <p>Dans cette partie, vous pouvez ajouter un contact à votre liste, enregistrer un nouveau témoignage
                     que vous pourrez activer par la suite en cochant la case active et choisissant aussi sa position sur
                     votre site web. Vous avez trois "cards" témoignages, vous pouvez alors choisir la "card" 1, 2, 3 et
@@ -211,7 +211,7 @@
 
 
             <!--   card add contact  -->
-            <div class="col-12 col-sm-4 mr-auto ml-sm-5 mb-5">
+            <div class="col-12 col-sm-8 col-lg-4 mr-auto ml-sm-5 mb-5">
               <div class="card box-shadow rounded-0">
                 <!--  card body add contact  -->
                 <div class="card-body">
@@ -258,75 +258,89 @@
             </div>
 
 
-
-            <!--   card add testimonial  -->
-            <div class="col-12 col-sm-5 ml-sm-5 mb-5 mr-auto">
-              <div class="card box-shadow rounded-0">
-                <!--  card body add testimonial  -->
-                <div class="card-body">
-                  <form>
-                    <div class="col-12 col-sm-11 form-group">
-                      <label for="name">Nom</label>
-                      <input type="text" class="form-control rounded-0" placeholder="Nom" />
-                    </div>
-                    <div class="col-12 col-sm-11 form-group">
-                      <label for="publicName">Nom Publique</label>
-                      <input type="text" class="form-control rounded-0" placeholder="Nom publique ou pseudo" />
-                    </div>
-                    <div class="col-12 col-sm-11 form-group">
-                      <label for="title">Titre</label>
-                      <input type="text" class="form-control rounded-0" placeholder="Titre" />
-                    </div>
-
-                    <div class="col-12 col-sm-11 form-group">
-                      <label for="clientTestimonial">Témoignage du client</label>
-                      <textarea class="form-control rounded-0" id="clientTestimonial" rows="4"></textarea>
-                    </div>
-
-                    <div class="col-12 form-group mb-3">
-                      <label for="cardSelection">
-                        Sélectionnez la "card"
-                      </label>
-                      <select class="form-control w-25 rounded-0" id="cardSelection">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                      </select>
-                    </div>
+            <div class="row">
 
 
-                    <div class="col-12 form-check ml-4 mb-3">
-                      <input type="checkbox" class="form-check-input" id="activeTestimonial">
-                      <label class="form-check-label" for="activeTestimonial">
-                        Activez le témoignage (besoin d'enregistrer et
-                        de rafraichir la page)
-                      </label>
-                    </div>
-
-                    <div class="col-12 col-sm-11 input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text rounded-0">Upload</span>
+              <!--   col add card testimonial  -->
+              <div class="col-12 col-sm-10 col-lg-5 ml-lg-5 mb-5">
+                <div class="card box-shadow rounded-0">
+                  <!--  card body add testimonial  -->
+                  <div class="card-body">
+                    <form>
+                      <div class="col-12 col-sm-11 form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" class="form-control rounded-0" placeholder="Nom" />
                       </div>
-                      <div class="custom-file">
-                        <input type="image" class="custom-file-input" id="inputGroupImage">
-                        <label class="custom-file-label rounded-0" for="inputGroupImage">Choisir une image</label>
+                      <div class="col-12 col-sm-11 form-group">
+                        <label for="publicName">Nom Publique</label>
+                        <input type="text" class="form-control rounded-0" placeholder="Nom publique ou pseudo" />
                       </div>
-                    </div>
+                      <div class="col-12 col-sm-11 form-group">
+                        <label for="title">Titre</label>
+                        <input type="text" class="form-control rounded-0" placeholder="Titre" />
+                      </div>
 
-                  </form>
-                </div>
+                      <div class="col-12 col-sm-11 form-group">
+                        <label for="clientTestimonial">Témoignage du client</label>
+                        <textarea class="form-control rounded-0" id="clientTestimonial" rows="4"></textarea>
+                      </div>
 
-                <!--  card footer add testimonial  -->
-                <div class="card-footer bg-light">
+                      <div class="col-12 form-group mb-3">
+                        <label for="cardSelection">
+                          Sélectionnez la "card"
+                        </label>
+                        <select class="form-control w-25 rounded-0" id="cardSelection">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                        </select>
+                      </div>
 
-                  <div class="col-12">
-                    <label for="submit"></label>
-                    <button type="submit" name="submit"
-                      class="btn btn-secondary rounded-0 d-block mb-3 mx-auto">Enregistrer</button>
+
+                      <div class="col-12 form-check ml-4 mb-3">
+                        <input type="checkbox" class="form-check-input" id="activeTestimonial">
+                        <label class="form-check-label" for="activeTestimonial">
+                          Activez le témoignage (besoin d'enregistrer et
+                          de rafraichir la page)
+                        </label>
+                      </div>
+
+                      <div class="col-12 col-sm-11 input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text rounded-0">Upload</span>
+                        </div>
+                        <div class="custom-file">
+                          <input type="image" class="custom-file-input" id="inputGroupImage">
+                          <label class="custom-file-label rounded-0" for="inputGroupImage">Choisir une image</label>
+                        </div>
+                      </div>
+
+                    </form>
                   </div>
+
+                  <!--  card footer add testimonial  -->
+                  <div class="card-footer bg-light">
+
+                    <div class="col-12">
+                      <label for="submit"></label>
+                      <button type="submit" name="submit"
+                        class="btn btn-secondary rounded-0 d-block mb-3 mx-auto">Enregistrer</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <!--   col Image Demo: card testimonial  -->
+              <div class="d-none d-lg-block col-lg-6 ml-4 mt-5">
+                <div class="rounded-0">
+                  <img src="assets/img/card-demo.png" class="img-fluid" alt="Responsive image">
+
 
                 </div>
               </div>
+
             </div>
 
 
