@@ -164,7 +164,6 @@
           <!--  main panel row content  -->
           <div class="row">
 
-
             <!--  main title add contact  & testimonial -->
             <div class="container mb-5">
               <div class="row mb-3">
@@ -185,6 +184,8 @@
             </div>
 
 
+
+
             <!--  contact title  -->
             <div class="container ml-4">
               <div class="row mb-4">
@@ -203,34 +204,38 @@
                 </div>
               </div>
             </div>
-
             <!--   card add contact  -->
             <div class="col-12 col-sm-8 col-lg-4 mr-auto ml-sm-5 mb-5">
               <div class="card box-shadow rounded-0">
                 <!--  card body add contact  -->
-                <div class="card-body">
+                <div class="card-body pt-2 pl-2">
                   <form>
                     <div class="col-12 col-sm-11 form-group">
-                      <label for="lastname" class="font-weight-bold">Nom</label>
-                      <input type="text" class="form-control rounded-0" placeholder="Nom" />
+                      <label for="firstnameNewContact" class="font-weight-bold">Prénom</label>
+                      <input type="text" id="firstnameNewContact" class="form-control rounded-0" placeholder="Nom" />
                     </div>
                     <div class="col-12 col-sm-11 form-group">
-                      <label for="firstname" class="font-weight-bold">Email</label>
-                      <input type="email" class="form-control rounded-0" placeholder="Email" />
+                      <label for="lastnameNewContact" class="font-weight-bold">Nom</label>
+                      <input type="text" id="lastnameNewContact" class="form-control rounded-0" placeholder="Nom" />
+                    </div>
+                    <div class="col-12 col-sm-11 form-group">
+                      <label for="emailNewContact" class="font-weight-bold">Email</label>
+                      <input type="email" id="emailNewContact" class="form-control rounded-0" placeholder="Email" />
                     </div>
                   </form>
                 </div>
 
                 <!--  card footer add contact  -->
-                <div class="card-footer bg-light">
-
+                <div class="card-footer bg-light p-0">
                   <label for="submit"></label>
                   <button type="submit" name="submit"
                     class="btn btn-secondary d-block rounded-0 mb-3 mx-auto">Enregistrer</button>
-
                 </div>
               </div>
             </div>
+
+
+
 
 
 
@@ -253,10 +258,10 @@
               </div>
             </div>
 
-
             <div class="row">
               <!--   col add card testimonial  -->
               <div class="col-12 col-sm-10 col-lg-5 ml-lg-5 mb-5">
+                <!--  card  -->
                 <div class="card box-shadow rounded-0">
                   <!--  card body add testimonial  -->
                   <div class="card-body">
@@ -334,7 +339,10 @@
               </div>
             </div>
 
-          </div>
+
+
+
+          </div> <!--  End of Main Row  -->
         </div>
         <!--  End container-fluid  -->
       </div>
