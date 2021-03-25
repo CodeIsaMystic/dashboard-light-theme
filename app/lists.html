@@ -175,14 +175,14 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div><!--  / end of main title add contact & testimonial  -->
 
 
 
           <!--  title contact list  -->
           <div class="row">
             <div class="col-12 px-0">
-              <h3 class="heading-primary pl-2 my-3">
+              <h3 class="pl-2 my-3">
                 Liste de contacts
               </h3>
             </div>
@@ -193,11 +193,10 @@
             </div>
           </div>
 
-
-
           <!-- list contact  -->
           <div class="row">
             <div class="col-12">
+              <!--   table  -->
               <table class="table table-sm table-hover box-shadow">
                 <!--  table head  -->
                 <thead class="pb-1 m-0">
@@ -385,7 +384,7 @@
                 </tbody>
               </table>
             </div>
-          </div>
+          </div><!--   / end of list contact   -->
 
 
 
@@ -393,7 +392,7 @@
           <!--  title list testimonial  -->
           <div class="row pt-5 mt-5">
             <div class="col-12 px-0">
-              <h3 class="heading-primary pl-2 my-3">
+              <h3 class="pl-2 my-3">
                 Liste des témoignages
               </h3>
             </div>
@@ -407,11 +406,10 @@
             </div>
           </div>
 
-
-
           <!-- list testimonial  -->
           <div class="row">
             <div class="col-12">
+              <!--  table  -->
               <table class="table table-sm table-hover mt-3 box-shadow">
                 <!--  table head  -->
                 <thead class="pb-1 m-0">
@@ -431,7 +429,14 @@
                     <th scope="row">1</th>
                     <td>John D.</td>
                     <td class=""><span class="badge badge-pill">Coaching</span></td>
-                    <td></td>
+                    <td class="rounded-0">
+                      <select class="rounded-0" id="cardSelection">
+                        <option>no</option>
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </td>
                     <td>
                       <a href="#" class="link">
                         Détails
@@ -453,7 +458,14 @@
                     <th class="" scope="row">2</th>
                     <td>Jane D.</td>
                     <td class=""><span class="badge badge-pill">Préparation physique</span></td>
-                    <td></td>
+                    <td class="rounded-0">
+                      <select class="rounded-0" id="cardSelection">
+                        <option>no</option>
+                        <option value="1">1</option>
+                        <option value="2" selected>2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </td>
                     <td>
                       <a href="#" class="link">
                         Détails
@@ -475,7 +487,14 @@
                     <th class="" scope="row">3</th>
                     <td>Miss B.</td>
                     <td class=""><span class="badge badge-pill">Remise en forme</span></td>
-                    <td></td>
+                    <td class="rounded-0">
+                      <select class="rounded-0" id="cardSelection">
+                        <option>no</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3" selected>3</option>
+                      </select>
+                    </td>
                     <td>
                       <a href="#" class="link">
                         Détails
@@ -497,7 +516,14 @@
                     <th class="" scope="row">4</th>
                     <td>Adam S.</td>
                     <td class=""><span class="badge badge-pill">Coaching Force</span></td>
-                    <td></td>
+                    <td class="rounded-0">
+                      <select class="rounded-0" id="cardSelection">
+                        <option selected>no</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </td>
                     <td>
                       <a href="#" class="link">
                         Détails
@@ -519,7 +545,14 @@
                     <th class="" scope="row">5</th>
                     <td>Lizzy W.</td>
                     <td class=""><span class="badge badge-pill">Prépartion physique</span></td>
-                    <td></td>
+                    <td class="rounded-0">
+                      <select class="rounded-0" id="cardSelection">
+                        <option selected>no</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </td>
                     <td>
                       <a href="#" class="link">
                         Détails
@@ -540,8 +573,7 @@
                 </tbody>
               </table>
             </div>
-          </div>
-
+          </div><!--   / end of list testimonial  -->
 
         </div>
         <!--  End container-fluid  -->
