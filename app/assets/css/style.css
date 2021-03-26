@@ -106,6 +106,8 @@ p {
 }
 .nc-icon-fz-18 { font-size: 18px; }
 .nc-icon-fz-24 { font-size: 24px; } 
+.nc-icon-fz-36 { font-size: 36px; } 
+.nc-icon-fz-48 { font-size: 48px; } 
 
 .nc-chart::before {
 content: "\ea21";
