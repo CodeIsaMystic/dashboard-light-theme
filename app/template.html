@@ -18,8 +18,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
   <!-- CSS Files -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link href="/assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/light-template.css">
 
   <title>Template</title>
 
@@ -29,14 +28,16 @@
   <!--  wrapper  -->
   <div class="wrapper">
     <!--  sidebar  -->
-    <div class="sidebar" data-image="../assets/img/bg-admin.jpg" data-color="blueDark">
+    <div class="collapse navbar-collapse sidebar" data-color="blueDark" id="navigation">
       <!--  sidebar wrapper -->
-      <div class="sidebar-wrapper">
+      <div class="sidebar-wrapper nav navbar-nav">
         <!-- logo  -->
-        <div class="logo">
+        <div class="logo" data-toggle="dropdown">
+          <!--  
+          <a href="javascript:;">-->
           <a href="javascript:;">
-            <h1 class="simple-text m-0">D . B . S . H
-            </h1>
+            <h2 class="simple-text m-0">D . B . S . H
+            </h2>
           </a>
         </div>
 
@@ -113,33 +114,38 @@
 
     <!--  main-panel  -->
     <div class="main-panel">
-      <!-- Navbar -->
+      <!--  navbar expand -->
       <nav class="navbar navbar-expand-lg " color-on-scroll="500">
 
+        <!--  container fluid   -->
         <div class="container-fluid">
 
           <p class="font-italic my-2 p-0">" Doing Sports Healthy "</p>
 
-          <button href="#" class="navbar-toggler navbar-toggler-right my-2" type="button" data-toggle="collapse"
+          <button class="navbar-toggler navbar-toggler-left my-2" type="button" data-toggle="collapse"
             data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
             aria-label="Toggle navigation">
-            <span class="navbar-toggler-bar burger-lines"></span>
-            <span class="navbar-toggler-bar burger-lines"></span>
-            <span class="navbar-toggler-bar burger-lines"></span>
+            <span class="navbar-toggler-bar btn-span"></span>
+            <span class="navbar-toggler-bar btn-span"></span>
+            <span class="navbar-toggler-bar btn-span"></span>
           </button>
 
-          <!--  collapse  -->
-          <div class="collapse navbar-collapse justify-content-end" id="navigation">
-            <!--  nav navbar left  -->
-            <ul class="nav navbar-nav mr-auto">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-center" data-toggle="dropdown">
+          <!-- navbar collapse 
+          <div class="collapse navbar-collapse justify-content-end" id="navigation"> 
+          <div class="justify-content-end">-->
+          <!--  nav navbar left
+            <ul class="nav navbar-nav mr-auto">  
+            <ul class="nav mr-auto">
+              <li class="nav-item">-->
+          <!--  
+                <a href="#" class="nav-link text-center" data-toggle="dropdown"> 
+                <a href="#" class="nav-link text-center">
                   <span class="d-lg-none">Home</span>
                 </a>
               </li>
-            </ul>
+            </ul>-->
 
-            <!--  nav navbar right  -->
+          <!--  nav navbar right
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a class="nav-link font-italic p-2" href="#">Welcome Jowd</a>
@@ -147,12 +153,14 @@
               <li class="nav-item">
                 <a class="nav-link font-italic p-2" href="#">Log Out</a>
               </li>
-            </ul>
-          </div>
+            </ul>  
+
+          </div>-->
+          <!--</div  end of navbar collapse  -->
         </div>
-        <!--  End Container-fluid  -->
+        <!--  end of container fluid  -->
       </nav>
-      <!-- End Navbar -->
+      <!--  end of navbar  -->
 
 
       <!--  Content  -->
@@ -200,8 +208,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
   <!--  JS file
-  <script src="/assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
-  -->
+  <script src="/assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script> -->
+
 </body>
 
 <!-- 
