@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="utf-8" />
-
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
     name='viewport' />
@@ -20,7 +19,8 @@
   <!-- CSS Files -->
   <link rel="stylesheet" href="assets/css/light-template.css">
 
-  <title>Add Contacts & Testimonials</title>
+
+  <title>Titres & Sous-titres</title>
 
 </head>
 
@@ -28,7 +28,7 @@
   <!--  wrapper  -->
   <div class="wrapper">
     <!--  sidebar  -->
-    <div class="sidebar" data-image="../assets/img/bg-admin.jpg" data-color="blueDark">
+    <div class="sidebar" data-color="blueDark">
       <!--  sidebar wrapper -->
       <div class="sidebar-wrapper">
         <!-- logo  -->
@@ -39,8 +39,6 @@
           </a>
         </div>
 
-
-
         <!--    Shortcuts  -->
         <ul class="nav d-flex flex-row justify-content-end mr-3 mt-3 mb-5">
           <li class="nav-item">
@@ -49,14 +47,12 @@
               </i>
             </a>
           </li>
-          <li class="nav-item active m-0 p-0">
+          <li class="nav-item m-0 p-0">
             <a class="nav-link d-flex align-self-center" href="./addToList.html">
               <i class="nc-icon nc-icon-fz-18 nc-simple-add m-auto p-0"></i>
             </a>
           </li>
         </ul>
-
-
 
 
         <!--  ul nav nav-items  -->
@@ -79,7 +75,7 @@
               <p>Lists</p>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="headings.html">
               <i class="nc-icon nc-icon-fz-24 nc-caps-small"></i>
               <p>Titles</p>
@@ -112,7 +108,7 @@
 
     <!--  main-panel  -->
     <div class="main-panel">
-      <!-- Navbar -->
+      <!-- navbar -->
       <nav class="navbar navbar-expand-lg " color-on-scroll="500">
 
         <div class="container-fluid">
@@ -139,8 +135,8 @@
 
             <!--  nav navbar right  -->
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item font-italic p-2 mt-3">
-                Welcome Jowd
+              <li class="nav-item">
+                <a class="nav-link font-italic p-2" href="#">Welcome Jowd</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link font-italic p-2" href="logout.html">Log Out</a>
@@ -150,171 +146,89 @@
         </div>
         <!--  End Container-fluid  -->
       </nav>
-      <!-- End Navbar -->
+      <!-- end of navbar -->
 
 
-      <!--  Content  -->
+      <!--  main content  -->
       <div class="content">
-        <!--  container-fluid  -->
+        <!-- main container-fluid  -->
         <div class="container-fluid">
 
-
-
-          <!--  main title add contact  & testimonial -->
-          <div class="container mb-5 mx-0 p-0">
-            <div class="row mb-3">
-              <div class="col-12 d-flex align-items-center mr-auto">
-                <i class="nc-icon nc-icon-fz-48 nc-circle-09 mr-3"></i>
-                <h1 class="text-center text-lg-left my-2">
-                  Ajouter des contacts et témoignages
+          <!--  container main title set headings section -->
+          <div class="container m-0 p-0">
+            <div class="row mb-5">
+              <div class="col-12 mr-auto d-flex align-items-center">
+                <i class="nc-icon nc-icon-fz-48 nc-caps-small mr-3"></i>
+                <h1 class="my-2 text-center text-uppercase text-lg-left">
+                  Modifier vos titres
                 </h1>
               </div>
-
-              <div class="row">
-                <div class="col-12 text-center text-lg-left mt-lg-3  mt-0 mx-0">
-                  <p class=" px-3">Dans cette partie, vous pouvez ajouter un contact à votre liste et enregistrer un
-                    nouveau
-                    témoignage
-                    Notez que tout vos changements seront stockés dans votre base de données dès lors que vous les
-                    aurez
-                    enregistrés. Vous pouvez également les consultés via les listes sur votre dashboard, à la page
-                    correspondante.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
 
 
 
 
-          <!--  contact title  -->
-          <div class="container ml-0">
-            <div class="row mb-4">
-              <div class="col-12">
-                <h3 class="mt-3">
-                  Ajouter des contacts
-                </h3>
-              </div>
-              <div class="col-sm-12">
-                <small>
-                  Vous avez ici la possibilité d'enregistrer vos contacts dans votre base de données. Les contacts
-                  acquis via le site web principal seront également stockés dans cette liste. Une seule liste pour
-                  tout vous contacts, ce sera le moyen de vous créer une liste d'email et de pouvoir ainsi contacter
-                  vos prospects.
-                </small>
-              </div>
+          <!--  row title: set section headings  -->
+          <div class="row mb-4">
+            <div class="col-12">
+              <h3 class="mt-5">
+                Modifier les titres de vos sections
+              </h3>
             </div>
-          </div>
-          <!--   card add contact  -->
-          <div class="col-12 col-sm-8 col-lg-4 mr-auto mb-5">
-            <div class="card box-shadow rounded-0">
-              <!--  card body add contact  -->
-              <div class="card-body pt-2">
-                <form>
-                  <div class="col-12 col-sm-11 form-group">
-                    <label for="firstnameNewContact" class="font-weight-bold">Prénom</label>
-                    <input type="text" id="firstnameNewContact" class="form-control rounded-0" placeholder="Nom" />
-                  </div>
-                  <div class="col-12 col-sm-11 form-group">
-                    <label for="lastnameNewContact" class="font-weight-bold">Nom</label>
-                    <input type="text" id="lastnameNewContact" class="form-control rounded-0" placeholder="Nom" />
-                  </div>
-                  <div class="col-12 col-sm-11 form-group">
-                    <label for="emailNewContact" class="font-weight-bold">Email</label>
-                    <input type="email" id="emailNewContact" class="form-control rounded-0" placeholder="Email" />
-                  </div>
-                </form>
-              </div>
-
-              <!--  card footer add contact  -->
-              <div class="card-footer bg-light p-0">
-                <label for="submit"></label>
-                <button type="submit" name="submit" class="btn btn-secondary d-block rounded-0 mb-3 mx-auto">Ajouter le
-                  contact</button>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-          <!--  testimonials title  -->
-          <div class="container ml-0">
-            <div class="row mb-4">
-              <div class="col-12">
-                <h3 class="mt-3">
-                  Ajouter des témoignages
-                </h3>
-              </div>
-              <div class="col-12">
-                <small>Avec ce formulaire, vous ajoutez un nouveau témoignage que vous pourrez publier en cochant la
-                  case
-                  "Publiez" et choisir aussi sa position sur votre site web.
-                  Vous avez trois "cards" témoignages, vous pouvez alors choisir la "card" 1, 2, 3 et
-                  dès lors que vous enregistrer les changements seront publiés sur votre site web.
-                </small>
-              </div>
+            <div class="col-12">
+              <small>Avec ce formulaire, vous ajoutez un nouveau témoignage que vous pourrez publier en cochant
+                la
+                case
+                "Publiez" et choisir aussi sa position sur votre site web.
+                Vous avez trois "cards" témoignages, vous pouvez alors choisir la "card" 1, 2, 3 et
+                dès lors que vous enregistrer les changements seront publiés sur votre site web.
+              </small>
             </div>
           </div>
 
           <div class="row">
-            <!--   col add card testimonial  -->
-            <div class="col-12 col-sm-10 col-lg-5 ml-lg-0 mb-5">
+            <!--   col set headings form -->
+            <div class="col-12 col-sm-10 col-lg-5 ml-lg-0 mb-5 mt-3">
               <!--  card  -->
               <div class="card box-shadow rounded-0">
-                <!--  card body add testimonial  -->
+                <!--  card body set title  -->
                 <div class="card-body">
                   <form>
+
                     <div class="col-12 col-sm-11 form-group">
-                      <label for="name" class="font-weight-bold">Nom</label>
-                      <input type="text" class="form-control rounded-0" placeholder="Nom" />
-                    </div>
-                    <div class="col-12 col-sm-11 form-group">
-                      <label for="publicName" class="font-weight-bold">Nom Publique</label>
-                      <input type="text" class="form-control rounded-0" placeholder="Nom publique ou pseudo" />
-                    </div>
-                    <div class="col-12 col-sm-11 form-group">
-                      <label for="title" class="font-weight-bold">Titre</label>
-                      <input type="text" class="form-control rounded-0" placeholder="Titre" />
+                      <label for="title" class="font-weight-bold">
+                        Titres
+                      </label>
+                      <textarea class="form-control rounded-0" id="title" rows="3"></textarea>
                     </div>
 
                     <div class="col-12 col-sm-11 form-group">
-                      <label for="clientTestimonial" class="font-weight-bold">
-                        Témoignage du client
+                      <label for="subtitle" class="font-weight-bold">
+                        Sous-titres
                       </label>
-                      <textarea class="form-control rounded-0" id="clientTestimonial" rows="4"></textarea>
+                      <textarea class="form-control rounded-0" id="subtitle" rows="4"></textarea>
                     </div>
+
 
                     <div class="col-12 form-group mb-3">
                       <label for="cardSelection">
-                        Sélectionnez la "card"
+                        Sélectionnez la section
                       </label>
-                      <select class="form-control w-25 rounded-0" id="cardSelection">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
+                      <select class="form-control w-50 rounded-0" id="cardSelection">
+                        <option>A propos</option>
+                        <option>Coaching</option>
+                        <option>Témoignages</option>
+                        <option>Contact</option>
                       </select>
                     </div>
 
                     <div class="col-12 form-check ml-4 mb-3">
                       <input type="checkbox" class="form-check-input" id="publishTestimonial">
                       <label class="form-check-label" for="publishTestimonial">
-                        Publiez le témoignage (besoin d'enregistrer et
+                        Publier vos changements (besoin d'enregistrer et
                         de rafraichir la page)
                       </label>
-                    </div>
-
-                    <div class="col-12 col-sm-11 input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text rounded-0">Upload</span>
-                      </div>
-                      <div class="custom-file">
-                        <input type="image" class="custom-file-input" id="inputGroupImage">
-                        <label class="custom-file-label rounded-0" for="inputGroupImage">Choisir une image</label>
-                      </div>
                     </div>
 
                   </form>
@@ -333,7 +247,7 @@
               </div>
             </div>
 
-            <!--   col Image Demo: card testimonial  -->
+            <!--   col Image Demo: headings section sample  -->
             <div class="d-none d-lg-block col-lg-6 mx-auto mt-5">
               <div class="rounded-0">
                 <img src="assets/img/card-demo.png" class="img-fluid" alt="Responsive image">
@@ -342,15 +256,12 @@
           </div>
 
 
-
         </div>
-        <!--  End container-fluid  -->
+        <!--  end of main container-fluid  -->
       </div>
-      <!--  End Content  -->
+      <!--  end of content  -->
 
-
-
-      <!--  Footer  -->
+      <!--  footer  -->
       <footer class="footer">
         <!--  container-fluid  -->
         <div class="container-fluid">
@@ -367,11 +278,11 @@
         </div>
         <!--  End container-fluid  -->
       </footer>
-      <!--  End Footer-->
+      <!--  end of footer-->
 
 
     </div>
-    <!--  End main-panel  -->
+    <!--  end of main-panel  -->
   </div>
-  <!--  End wrapper  -->
+  <!--  end of wrapper  -->
 </body>
