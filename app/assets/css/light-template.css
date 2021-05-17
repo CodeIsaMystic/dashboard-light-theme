@@ -334,6 +334,7 @@ body>.navbar-collapse .nav li:hover .nav-link {
   opacity: 1;
 }
 
+
 .sidebar .nav li.active .nav-link,
 body>.navbar-collapse .nav li.active .nav-link {
   color: #FFFFFF;
@@ -366,6 +367,7 @@ body>.navbar-collapse .nav li .nav-link p {
   text-transform: uppercase;
   display: inline-flex;
 }
+
 
 /*  =sb-link-bottom  */
 .sb-link-bottom,
