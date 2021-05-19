@@ -1,17 +1,3 @@
-// =========================================================
-//  Light Bootstrap Dashboard - v2.0.1
-// =========================================================
-//
-//  Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard
-//  Copyright 2019 Creative Tim (https://www.creative-tim.com)
-//  Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard/blob/master/LICENSE)
-//
-//  Coded by Creative Tim
-//
-// =========================================================
-//
-//  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 var searchVisible = 0;
 var transparent = true;
 
@@ -23,14 +9,10 @@ var mobile_menu_visible = 0,
     mobile_menu_initialized = false,
     toggle_initialized = false,
     bootstrap_nav_initialized = false,
-    $sidebar,
     isWindows;
 
 $(document).ready(function() {
     window_width = $(window).width();
-
-    // check if there is an image set for the sidebar's background
-    lbd.checkSidebarImage();
 
     // Init navigation toggle for small screens
     if (window_width <= 991) {
@@ -67,21 +49,6 @@ $(window).resize(function() {
 lbd = {
     misc: {
         navbar_menu_visible: 0
-    },
-    checkSidebarImage: function() {
-        $sidebar = $('.sidebar');
-        image_src = $sidebar.data('image');
-
-        if (image_src !== undefined) {
-            sidebar_container = '<div class="sidebar-background" style="background-image: url(' + image_src + ') "/>'
-            $sidebar.append(sidebar_container);
-        } else if (mobile_menu_initialized == true) {
-            // reset all the additions that we made for the sidebar wrapper only if the screen is bigger than 991px
-            $sidebar_wrapper.find('.navbar-form').remove();
-            $sidebar_wrapper.find('.nav-mobile-menu').remove();
-
-            mobile_menu_initialized = false;
-        }
     },
 
     initRightMenu: function() {
@@ -181,24 +148,3 @@ lbd = {
         }
     }
 }
-
-
-
-// Returns a function, that, as long as it continues to be invoked, will not
-// be triggered. The function will be called after it stops being called for
-// N milliseconds. If `immediate` is passed, trigger the function on the
-// leading edge, instead of the trailing.
-
-function debounce(func, wait, immediate) {
-    var timeout;
-    return function() {
-        var context = this,
-            args = arguments;
-        clearTimeout(timeout);
-        timeout = setTimeout(function() {
-            timeout = null;
-            if (!immediate) func.apply(context, args);
-        }, wait);
-        if (immediate && !timeout) func.apply(context, args);
-    };
-};
