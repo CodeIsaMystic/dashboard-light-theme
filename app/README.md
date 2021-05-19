@@ -39,16 +39,15 @@ Bootstrap Dashboard Light Theme
 │   │   │   ├── jquery.3.2.1.min.js
 │   │   ├── script.js
 │   └── style.css
-|dashboard.html
-│headings.html
-│lists.html
-│contact.html
-│seo.html
-│addToList.html
-│logout.html
-│login.html
-│user.html
-│register.html
+|-- dashboard.html
+|-- headings.html
+|-- lists.html
+|-- contact.html
+|-- seo.html
+|-- addToList.html
+|-- logout.html
+|-- login.html
+|-- user.html
 |
-└── package-lock.json
+└── register.html
 ```
