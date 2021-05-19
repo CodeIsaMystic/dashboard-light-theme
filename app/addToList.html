@@ -1,159 +1,154 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8" />
+    <!--  Meta  -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
-    name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+    <!-- CSS Files -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    
+    <!-- CDN Bootstrap 4  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
 
-  <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-
-  <!-- CSS CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-  <!-- CSS Files -->
-  <link rel="stylesheet" href="assets/css/light-template.css">
-
-  <title>Add Contacts & Testimonials</title>
+    <!--  Title  -->
+    <title>Add Contacts & Testimonials</title>
 
 </head>
 
 <body>
   <!--  wrapper  -->
   <div class="wrapper">
+
+
+
+
     <!--  sidebar  -->
-    <div class="sidebar" data-image="../assets/img/bg-admin.jpg" data-color="blueDark">
-      <!--  sidebar wrapper -->
+    <div class="sidebar" data-color="blueDark">
+      <!--  sidebar wrapping elements  -->
       <div class="sidebar-wrapper">
-        <!-- logo  -->
-        <div class="logo">
-          <a href="javascript:;">
-            <h1 class="simple-text m-0">D . B . S . H
-            </h1>
-          </a>
+
+
+        <!--  logo  -->
+        <div class="logo text-center">
+            <a class="navbar-brand m-0 py-1" href="#">
+                <h1 class="simple-text m-0 p-0">D . B . S . H
+                </h1>
+            </a>
         </div>
 
-
-
-        <!--    Shortcuts  -->
-        <ul class="nav d-flex flex-row justify-content-end mr-3 mt-3 mb-5">
-          <li class="nav-item">
-            <a href="#" class="nav-link d-flex align-self-center">
-              <i class="nc-icon nc-icon-fz-18 nc-refresh-02 m-auto p-0">
-              </i>
-            </a>
-          </li>
-          <li class="nav-item active m-0 p-0">
-            <a class="nav-link d-flex align-self-center" href="./addToList.html">
-              <i class="nc-icon nc-icon-fz-18 nc-simple-add m-auto p-0"></i>
-            </a>
-          </li>
+        <!--    shortcuts  -->
+        <ul class="nav d-flex flex-row justify-content-end mr-3 mt-3 mb-2">
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-self-center">
+                    <i class="nc-icon nc-icon-fz-18 nc-refresh-02 m-auto p-0">
+                    </i>
+                </a>
+            </li>
+            <li class="nav-item active m-0 p-0">
+                <a class="nav-link d-flex align-self-center" href="./addToList.html">
+                    <i class="nc-icon nc-icon-fz-18 nc-simple-add m-auto p-0"></i>
+                </a>
+            </li>
         </ul>
 
+        <!--  sidebar nav  -->
+        <ul class="nav pt-0">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="nc-icon nc-icon-fz-24 nc-chart"></i>
+                    <p>Dashboard</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="nc-icon nc-icon-fz-24 nc-circle-09"></i>
+                    <p>Contact Profile</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lists.html">
+                    <i class="nc-icon nc-icon-fz-24 nc-notes"></i>
+                    <p>Lists</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="headings.html">
+                    <i class="nc-icon nc-icon-fz-24 nc-caps-small"></i>
+                    <p>Titles</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="nc-icon nc-icon-fz-24 nc-camera-20"></i>
+                    <p>Images</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="nc-icon nc-icon-fz-24 nc-spaceship"></i>
+                    <p>SEO</p>
+                </a>
+            </li>
 
-
-
-        <!--  ul nav nav-items  -->
-        <ul class="nav pt-3">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">
-              <i class="nc-icon nc-icon-fz-24 nc-chart"></i>
-              <p>Dashboard</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="nc-icon nc-icon-fz-24 nc-circle-09"></i>
-              <p>Contact Profile</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="lists.html">
-              <i class="nc-icon nc-icon-fz-24 nc-notes"></i>
-              <p>Listes</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="headings.html">
-              <i class="nc-icon nc-icon-fz-24 nc-caps-small"></i>
-              <p>Titres</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="nc-icon nc-icon-fz-24 nc-camera-20"></i>
-              <p>Images</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <i class="nc-icon nc-icon-fz-24 nc-spaceship"></i>
-              <p>SEO</p>
-            </a>
-          </li>
-
-
-          <!--  nav-item link-bottom  -->
-          <li class="nav-item active sb-link-bottom sb-link-bottom-1">
-            <a class="nav-link pl-1 active" href="javascript:;">
-              <i class="nc-icon nc-icon-fz-24 nc-send"></i>
-              <p>Check Your Website</p>
-            </a>
-          </li>
+            <!--  nav-item link-bottom  -->
+            <li class="nav-item active sb-link-bottom sb-link-bottom-1">
+                <a class="nav-link pl-1 active" href="#">
+                    <i class="nc-icon nc-icon-fz-24 nc-send"></i>
+                    <p>Check Your Website</p>
+                </a>
+            </li>
         </ul>
-      </div>
-    </div>
 
+      </div><!--  end of sidebar wrapper-->
+    </div><!--  end of sidebar  -->
+
+    
     <!--  main-panel  -->
     <div class="main-panel">
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg " color-on-scroll="500">
+      
+        <!-- navbar-expand -->
+        <nav class="navbar navbar-expand-lg ">
 
-        <div class="container-fluid">
+          <div class="container-fluid">
+              <p class="font-italic my-2 p-0">" Doing Sports Healthy "</p>
 
-          <p class="font-italic my-2 p-0">" Doing Sports Healthy "</p>
+              <div class="d-flex align-items-center">
+                  <a class="d-lg-none font-italic text-dark p-2" href="logout.html">Log Out</a> 
 
-          <button href="#" class="navbar-toggler navbar-toggler-right my-2" type="button" data-toggle="collapse"
-            aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="btn-span"></span>
-            <span class="btn-span"></span>
-            <span class="btn-span"></span>
-          </button>
+                  <button href="" class="navbar-toggler navbar-toggler-right ml-3" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                      <!--  burger button  -->
+                      <span class="navbar-toggler-bar btn-span"></span>
+                      <span class="navbar-toggler-bar btn-span"></span>
+                      <span class="navbar-toggler-bar btn-span"></span>
+                  </button>
+              </div>
 
-          <!--  collapse  -->
-          <div class="collapse navbar-collapse justify-content-end" id="navigation">
-            <!--  nav navbar left  -->
-            <ul class="nav navbar-nav mr-auto">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-center" data-toggle="dropdown">
-                  <span class="d-lg-none">Home</span>
-                </a>
-              </li>
-            </ul>
 
-            <!--  nav navbar right  -->
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item font-italic p-2 mt-3">
-                Welcome Jowd
-              </li>
-              <li class="nav-item">
-                <a class="nav-link font-italic p-2" href="logout.html">Log Out</a>
-              </li>
-            </ul>
+              <!--  collapse  -->
+              <div class="collapse navbar-collapse justify-content-end" id="navigation">
+
+                  <div class="ml-auto">
+                      <a class="font-italic text-dark p-2" href="logout.html">Log Out</a>
+                  </div>
+              </div>
+
           </div>
-        </div>
-        <!--  End Container-fluid  -->
-      </nav>
-      <!-- End Navbar -->
+        </nav><!-- end of navbar-expand -->
 
 
-      <!--  Content  -->
+      <!--  content  -->
       <div class="content">
         <!--  container-fluid  -->
         <div class="container-fluid">
@@ -345,52 +340,47 @@
 
 
 
-        </div>
-        <!--  End container-fluid  -->
-      </div>
-      <!--  End Content  -->
+        </div><!--  end of container-fluid  -->
+      </div><!--  end of content  -->
+      
 
 
 
-      <!--  Footer  -->
+      <!--  footer  -->
       <footer class="footer">
         <!--  container-fluid  -->
         <div class="container-fluid">
-          <!--  nav  -->
-          <nav>
-            <p class="copyright text-center">
-              ©
-              <script>
-                document.write(new Date().getFullYear())
-              </script>
-              <a href="#">JowD</a>, the web on simple solutions.
-            </p>
-          </nav>
-        </div>
-        <!--  End container-fluid  -->
-      </footer>
-      <!--  End Footer-->
+            <!--  nav  -->
+            <nav>
+                <p class="copyright text-center">
+                    © 2021
+                    <a class="text-dark" href="#">JowD</a>, the web on simple solutions.
+                </p>
+            </nav>
+        </div><!--  end of container-fluid  -->
+      </footer><!--  end of footer-->
+          
 
 
-    </div>
-    <!--  End main-panel  -->
-  </div>
-  <!--  End wrapper  -->
-
-  
+    </div><!--  end of main-panel  -->
     
-  <!--   Vendor JS Cdn   -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  
-  <!--  JS file  -->
-  <!-- 
-  <script src="/assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
-  
-      <script src="/assets/js/script.js"></script> 
-  -->
-    
+
+
+
+
+
+
+  </div><!--  end of wrapper  -->
 </body>
+
+
+
+<!--   CDN JS Bootstrap 4   -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--  JS File for toggling the menu --->
+<script src="./assets/js/script.js" type="text/javascript"></script> 
+
 
 </html>
